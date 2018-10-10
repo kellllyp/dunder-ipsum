@@ -1,0 +1,59 @@
+<html>
+<head>
+
+  <link href="styles.css" rel="stylesheet" text="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:100italic' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body style="background-color:#F8F7F5">
+
+<body>
+<center>
+
+<title>Dunder Ipsum</title>
+
+      <img src="https://pbs.twimg.com/media/DotxHBdU4AEMEKy.png:large" alt="Thats What She Said" style="width:450px;height:250px;">
+      <p>
+      <div>
+        <h1>The Office Random Text Generator</h1></P>
+        <h2><i>Lorem ipsum</i> is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+          Mix up your filler text with some of the best quotes from The Office. Featuring over 100 different quotes from Michael Scott,
+          Dwight Schrute, Jim Halpert, and more. #DunderIpsum <br /></h2>
+
+      <form action="/" method="POST">
+      <input type="number" class="paragraph-number" name="numberOfParagraphs">
+
+      <button class="button button1" input type="submit" class="generate-button">That's What She Said!</button></form><p>
+
+</center>
+
+<div class="generated-text">
+      <div class='placeholder-div'></div>
+      <center>
+      <button class="button button1" button onclick="copyToClipboard('.generated-text')" class="clipboard-button">Copy to Clipboard</button></center>
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+    function copyToClipboard(element) {
+      var $temp = $("<input>");
+      $("body").append($temp);
+      $temp.val($(element).text()).select();
+      document.execCommand("copy");
+      $temp.remove();
+    }
+    var innerContents = document.getElementsByClassName("generated-text")[0].innerHTML;
+     if (!innerContents.includes("<p>")) {
+       $('.clipboard-button').hide();
+       document.getElementsByClassName("generated-text")[0].style.display = "none";
+     };
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+</body>
+</html>

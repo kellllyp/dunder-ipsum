@@ -1,0 +1,108 @@
+/*colors and texts*/
+
+.had {
+  color: #d44b15;
+  text-align: center;
+  background-color: #e5e4e4;
+  font-size: 1em;
+  font-family: Lato, serif;
+}
+
+.had-r1 {
+  line-height: 1em;
+  font-size: 7em;
+  font-weight: 100;
+}
+
+.had-amp {
+  color: #ffffff;
+  font-size: 3em;
+  font-style: italic;
+  vertical-align: bottom;
+  margin: 0 -0.3em;
+}
+
+
+body {
+    background-color: #014656;
+}
+
+h1 {
+    font-family: Lato;
+    font-size: 25px;
+    color: #02173D;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-family: Lato;
+    font-size: 15px;
+    color: #02173D;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+p {
+    font-family: Lato;
+    color: #02173D;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+a {
+    font-family: lato;
+    color: #000515;
+}
+a:link {
+    text-decoration: none;
+      font-size: 10px;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+.button {
+    background-color: #020257;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    font-family: Lato;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+
+.button1 {border-radius: 3px;}
+
+div {
+    padding-top: 10px;
+    padding-right: 110px;
+    padding-bottom: 20px;
+    padding-left: 110px;
+    background-position: 20px 20px;
+    background-repeat: repeat;
+}
+
+
+/*text bar for number of pararaphs*/
+input[type=number] {
+    width: 10%;
+    padding: 10px 10px;
+    margin: 7px 7px;
+    box-sizing: border-box;
+}
+.tagline {
+  font-family: 'Lato', sans-serif!important;
+  color: #ffffff;
+}
